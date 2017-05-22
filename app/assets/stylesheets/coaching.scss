@@ -1,0 +1,25 @@
+// Place all the styles related to the coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding: 100px;
+}
+
+form {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center
+}
+
+.message-container {
+  text-align: left;
+  border-left: solid 10px rgb(100,100,100);
+}
+
+p {
+  color: rgb(100,100,100);
+}

@@ -1,0 +1,18 @@
+<!-- <h1>Coaching#answer</h1>
+<p>Find me in app/views/coaching/answer.html.erb</p> -->
+
+<div class="container">
+
+  <% @messages.each do |message| %>
+    <div class="message-container">
+      <h3><%= message[:question] %></h3>
+      <p>- You</p>
+      <h3><%= message[:answer] %></h3>
+      <p>- Your coach</p>
+    </div>
+    <br>
+  <% end %>
+
+  <a href="/ask">Ask a new question</a>
+
+</div>
